@@ -23,4 +23,76 @@
     <graduation-date>05-01-1973</graduation-date>
   </student>
 
+  <student id="4567890">
+    <name>
+      <first-name>Kim</first-name>
+      <last-name>Thayil</last-name>
+    </name>
+    <preferred-name> </preferred-name>
+    <email>kim@soundgarden.com</email>
+    <phone>206.123.4567</phone>
+    <status year="2" current-status="full-time" gpa="3.0"/>
+    <program>
+      <major>Philosophy</major>
+      <minor>Music</minor>
+    </program>
+    <advisor>Chris Cornell</advisor>
+    <enrollment-date>08-25-1978</enrollment-date>
+    <graduation-date>05-01-1982</graduation-date>
+  </student>
+
+  <student id="8302438">
+    <name>
+      <first-name>Saul</first-name>
+      <last-name>Hudson</last-name>
+    </name>
+    <preferred-name>"Slash"</preferred-name>
+    <email>slash@gnr.com</email>
+    <phone>213.456.8392</phone>
+    <status year="4" current-status="part-time" gpa="2.0"/>
+    <program>
+      <major>Music</major>
+      <minor>Criminal Justice</minor>
+    </program>
+    <advisor>Axl Rose</advisor>
+    <enrollment-date>08-25-1983</enrollment-date>
+    <graduation-date>05-01-1987</graduation-date>
+  </student>
+
+  <student id="2983928">
+    <name>
+      <first-name>Emily</first-name>
+      <last-name>Kokal</last-name>
+    </name>
+    <preferred-name> </preferred-name>
+    <email>emily@warpaint.com</email>
+    <phone>213.123.7654</phone>
+    <status year="3" current-status="full-time" gpa="3.8"/>
+    <program>
+      <major>Political Science</major>
+      <minor>Law</minor>
+    </program>
+    <advisor>Jenny Lee Lindberg</advisor>
+    <enrollment-date>08-25-1998</enrollment-date>
+    <graduation-date>05-01-2002</graduation-date>
+  </student>
+
+  <student id="7645726">
+    <name>
+      <first-name>Mike</first-name>
+      <last-name>Inez</last-name>
+    </name>
+    <preferred-name> </preferred-name>
+    <email>mike@aic.com</email>
+    <phone>213.444.3323</phone>
+    <status year="2" current-status="full-time" gpa="4.0"/>
+    <program>
+      <major>Business Management</major>
+      <minor>Math</minor>
+    </program>
+    <advisor>Jerry Cantrell</advisor>
+    <enrollment-date>08-25-1984</enrollment-date>
+    <graduation-date>05-01-1988</graduation-date>
+  </student>
+
 </students>
