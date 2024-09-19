@@ -1,0 +1,66 @@
+:root::before {
+  content: 'Students';
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+student {
+  margin: 10px 0;
+  margin-left: 10px;
+  display: block;
+  font-family: Georgia;
+}
+
+name {
+  font-size: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+preferred-name, email, phone, status, program, advisor, enrollment-date, graduation-date {
+  font-size: 20px;
+  display: block;
+  margin-left: 30px;
+}
+
+student::after {
+  content: ''"Id: " attr(id) '';
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+major::before {
+  content: 'Major: ';
+}
+
+minor::before {
+  content: ', Minor: ';
+}
+
+advisor::before {
+  content: 'Advisor: ';
+}
+
+enrollment-date::before {
+  content: 'Enrollment date: ';
+}
+
+graduation-date::before {
+  content: 'Graduation date: ';
+}
+
+email::before {
+  content: 'Email: ';
+}
+
+phone::before {
+  content: 'Phone: ';
+}
+
+status::after {
+  content: ''"Year: " attr(year) ", Current Status: " attr(current-status) ", GPA: " attr(gpa)'';
+  font-size: 20px;
+}
