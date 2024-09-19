@@ -1,0 +1,44 @@
+<!-- The student element must contain one name, preferred-name, email, phone, status, program, advisor, enrollment-date, and graduation-date element. -->
+<!ELEMENT student (name, preferred-name, email, phone, status, program, advisor, enrollment-date, graduation-date)>
+
+<!-- The name element must contain one first-name, may contain up to one middle-name, and must contain one last-name. -->
+<!ELEMENT name            (first-name, middle-name?, last-name)>
+<!-- first-name must contain parsed character data. -->
+<!ELEMENT first-name      (#PCDATA)>
+<!-- middle-name must contain parsed character data. -->
+<!ELEMENT middle-name     (#PCDATA)>
+<!-- last-name must contain parsed character data. -->
+<!ELEMENT last-name       (#PCDATA)>
+
+<!-- preferred-name must contain parsed character data. -->
+<!ELEMENT preferred-name  (#PCDATA)>
+<!-- email must contain parsed character data. -->
+<!ELEMENT email           (#PCDATA)>
+<!-- phone must contain parsed character data. -->
+<!ELEMENT phone           (#PCDATA)>
+
+<!-- The status element must be empty. -->
+<!ELEMENT status          EMPTY>
+
+<!-- The program element must contain a major and may contain up to one minor. -->
+<!ELEMENT program         (major, minor?)>
+<!-- major must contain parsed character data. -->
+<!ELEMENT major           (#PCDATA)>
+<!-- minor must contain parsed character data. -->
+<!ELEMENT minor           (#PCDATA)>
+
+<!-- advisor must contain parsed character data. -->
+<!ELEMENT advisor         (#PCDATA)>
+<!-- enrollment-date must contain parsed character data. -->
+<!ELEMENT enrollment-date (#PCDATA)>
+<!-- graduation-date must contain parsed character data. -->
+<!ELEMENT graduation-date (#PCDATA)>
+
+<!-- The student element must contain one id attribute. -->
+<!ATTLIST student
+          id CDATA #REQUIRED>
+<!-- The status element must contain one year attribute, one current-status attribute, and one gpa attribute. The current-status attribute must be either full-time, part-time, graduated, or withdrawn. -->
+<!ATTLIST status
+          year           CDATA #REQUIRED
+          current-status (full-time|part-time|graduated|withdrawn) #REQUIRED
+          gpa            CDATA #REQUIRED>
