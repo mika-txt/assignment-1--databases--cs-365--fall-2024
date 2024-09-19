@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
-<!DOCTYPE student SYSTEM "student.dtd">
+<!DOCTYPE students SYSTEM "student.dtd">
 
-<student id="1234567">
-  <name>
-    <first-name>Gordon</first-name>
-    <middle-name>Matthew</middle-name>
-    <last-name>Sumner</last-name>
-  </name>
-  <preferred-name>“Sting”</preferred-name>
-  <email>sting@thepolice.com</email>
-  <phone>212.123.4567</phone>
-  <status year="1" current-status="full-time" gpa="4.0"/>
-  <program>
-    <major>Music</major>
-    <minor>English</minor>
-  </program>
-  <advisor>Andy Summers</advisor>
-  <enrollment-date>08-25-1969</enrollment-date>
-  <graduation-date>05-01-1973</graduation-date>
-</student>
+<students>
+
+  <student id="1234567">
+    <name>
+      <first-name>Gordon</first-name>
+      <middle-name>Matthew</middle-name>
+      <last-name>Sumner</last-name>
+    </name>
+    <preferred-name>“Sting”</preferred-name>
+    <email>sting@thepolice.com</email>
+    <phone>212.123.4567</phone>
+    <status year="1" current-status="full-time" gpa="4.0"/>
+    <program>
+      <major>Music</major>
+      <minor>English</minor>
+    </program>
+    <advisor>Andy Summers</advisor>
+    <enrollment-date>08-25-1969</enrollment-date>
+    <graduation-date>05-01-1973</graduation-date>
+  </student>
+
+</students>
